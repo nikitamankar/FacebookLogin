@@ -22,6 +22,8 @@ public class LoginTest {
 	
 	@Test
 	public void doLogin(){
+		
+		System.out.println("Executing Login Test");
        driver.get("https://www.facebook.com/");
         
         driver.findElement(By.xpath("//input[@type='email']")).sendKeys("nikitamankar 9975210059");
